@@ -12,6 +12,12 @@ Requirements
 
 * Need at least `go1.14` or newer.
 
+Vendored dependencies
+-----------
+
+Build and test this checkout offline with `go test -mod=vendor -short ./...`.
+Regenerate `vendor/` with `go mod vendor` when updating dependencies.
+
 Usage
 -----------
 
