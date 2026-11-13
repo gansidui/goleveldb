@@ -10,9 +10,9 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/memdb"
-	"github.com/syndtr/goleveldb/leveldb/opt"
+	"github.com/gansidui/goleveldb/leveldb/iterator"
+	"github.com/gansidui/goleveldb/leveldb/memdb"
+	"github.com/gansidui/goleveldb/leveldb/opt"
 )
 
 const (

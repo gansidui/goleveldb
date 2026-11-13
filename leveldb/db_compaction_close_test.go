@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/gansidui/goleveldb/leveldb/opt"
+	"github.com/gansidui/goleveldb/leveldb/storage"
+	"github.com/gansidui/goleveldb/leveldb/util"
 )
 
 type compactionPauseStorage struct {

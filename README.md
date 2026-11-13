@@ -5,7 +5,7 @@ This is an implementation of the [LevelDB key/value database](https://github.com
 Installation
 -----------
 
-	go get github.com/syndtr/goleveldb/leveldb
+	go get github.com/gansidui/goleveldb/leveldb@master
 
 Requirements
 -----------
@@ -110,4 +110,4 @@ defer db.Close()
 Documentation
 -----------
 
-You can read package documentation [here](https://pkg.go.dev/github.com/syndtr/goleveldb).
+You can read package documentation [here](https://pkg.go.dev/github.com/gansidui/goleveldb/leveldb).
